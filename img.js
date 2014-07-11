@@ -8,7 +8,7 @@ var Draw = function(conf){
     this.fontFamily= conf.fontFamily || "sans-serif";
     this.fontColor= conf.fontColor || "#000";
     this.textAlign= conf.textAlign || "center";
-    this.background = conf.background || conf.bgn? conf.bgn : conf.bgc || conf.bgn || "#09f";
+    this.background = conf.background || conf.bgn ? conf.bgn : ( conf.bgc && (conf.bgc != "#000000") ? conf.bgc :"#09f");
 };
 
 Draw.prototype.gen = function(){
