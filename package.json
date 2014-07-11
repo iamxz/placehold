@@ -1,16 +1,19 @@
 {
-  "name": "zhanwei",
+  "name": "iamxz",
   "version": "0.0.1",
+   "main": "index.js",
   "description": "images placehold",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": "0.10.x"
   },
   "author": "iamxz",
   "license": "BSD",
   "dependencies": {
-    "hapi": "^6.0.2",
-    "canvas": "^1.1.5",
-    "handlebars": "^2.0.0-alpha.4"
-  }
+    "hapi": "*",
+  	"canvas": "*",
+    "handlebars": "*"
+  }  
 }
