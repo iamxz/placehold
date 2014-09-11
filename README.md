@@ -49,5 +49,17 @@
 ![](http://img.iamxz.com/img?w=300&h=260&bgc=%23000000&bgn=azure&fontSize=24&fontColor=%23000000)
 
 
+### 问题 ： ###
 
+**npm install 本地运行 会报错？？**
+
+   windows 请参照  [https://github.com/Automattic/node-canvas/wiki/Installation---Windows](https://github.com/Automattic/node-canvas/wiki/Installation---Windows) 
+ 
+ 
+> 具体平台参加各个 wiki
+
+**本地运行方法**
+ 
+ 	node index.js
+ 
 
